@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import StateTutorials from './StateTutorials';
 import UseStatetutor from './UseStatetutor';
+import UseEffectctsample from './UseEffectsample'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,6 +12,7 @@ root.render(
     <App />
     <StateTutorials/>
     <UseStatetutor/>
+    <UseEffectctsample/>
   </React.StrictMode>
 );
 
