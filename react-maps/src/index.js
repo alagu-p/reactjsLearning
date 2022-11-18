@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import ReactMapboxGl, { GeoJSONLayer } from "react-mapbox-gl";
-// import * as turf from "@turf/turf";
+import * as turf from "@turf/turf";
 import geojsonStyles from "./geojsonStyles";
-// import "@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.css";
+import "@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.css";
 
 import "./styles.css";
 
